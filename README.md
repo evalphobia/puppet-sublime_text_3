@@ -1,3 +1,12 @@
+# Modified original for using symbolic link on sublime text 3's config directories 
+
+This fork aims at using symbolic link to set sublime text 3
+For the purpose of convenient computer settings, settings may be saved on the cloud resourses.
+The configs directories may be not only actual directories but symbolic links.
+So this fork don't assert it actual dir, just assert existence.
+
+# Original messages below..
+
 # Sublime Text 3 Puppet Module for Boxen
 
 [![Build Status](https://travis-ci.org/jozefizso/puppet-sublime_text_3.png?branch=master)](https://travis-ci.org/jozefizso/puppet-sublime_text_3)
